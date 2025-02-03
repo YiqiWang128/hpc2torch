@@ -1,3 +1,5 @@
+// 为了gather_cuda.cu编译成功，这里暂时注释掉
+/*
 #include <stdio.h>
 #include <cudnn.h>
 
@@ -50,3 +52,4 @@ extern "C" void softmax_cudnn_f16(void const *input, void *output, int *shape, i
 {
     softmaxCudnn<uint16_t>(input, output, shape, ndim);
 }
+*/
